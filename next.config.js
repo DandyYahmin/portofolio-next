@@ -4,7 +4,7 @@ const nextConfig = {
     output: 'export',
     images: {
         loader: "akamai",
-        path: "/portofolio-next",
+        path: "/",
     },
     // Add basePath
     basePath: '/portofolio-next',

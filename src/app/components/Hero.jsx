@@ -2,8 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
-import LINKEDINsvg from '../../../public/icons/LINKEDINsvg';
-import GITHUBsvg from '../../../public/icons/GITHUBsvg';
+import LINKEDINsvg from './icons/LINKEDINsvg';
+import GITHUBsvg from './icons/GITHUBsvg';
 
 const HeroSection = () => {
   return (

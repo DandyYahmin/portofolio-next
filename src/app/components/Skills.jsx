@@ -1,12 +1,12 @@
 "use client"
 import React, { useRef } from 'react'
 import { motion, useScroll } from 'framer-motion'
-import OSsvg from '../../../public/icons/OSsvg'
-import DATABASEsvg from '../../../public/icons/DATABASEsvg'
-import JSsvg from '../../../public/icons/JSsvg'
-import PHPsvg from '../../../public/icons/PHPsvg'
-import CSSsvg from '../../../public/icons/CSSsvg'
-import TOOLsvg from '../../../public/icons/TOOLsvg'
+import OSsvg from './icons/OSsvg'
+import DATABASEsvg from './icons/DATABASEsvg'
+import JSsvg from './icons/JSsvg'
+import PHPsvg from './icons/PHPsvg'
+import CSSsvg from './icons/CSSsvg'
+import TOOLsvg from './icons/TOOLsvg'
 
 const Skills = () => {
     const ref = useRef(null)
