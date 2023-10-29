@@ -5,6 +5,7 @@ const nextConfig = {
 
     // Add basePath
     basePath: '/portofolio-next',
+    assetPrefix: '/portofolio-next'
 }
 
 module.exports = nextConfig
