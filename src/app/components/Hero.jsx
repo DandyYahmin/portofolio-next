@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14b8a6] to-pink-500'>Hello World!</span>
                 </h1>
                 <h2 className='text-[#ADB7BE] mb-4 text-2xl lg:text-4xl font-extrabold'>
-                    I'am{" "}<span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14b8a6] via-pink-500 to-[#FF0066]'>Dandy Darmawan Al Yahmin</span>
+                    Im{" "}<span className='text-transparent bg-clip-text bg-gradient-to-r from-[#14b8a6] via-pink-500 to-[#FF0066]'>Dandy Darmawan Al Yahmin</span>
                     <br />
                     <span className='text-[#14b8a6]'>
                         I do{" "}
