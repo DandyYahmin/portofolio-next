@@ -49,7 +49,7 @@ const HeroSection = () => {
             </div>
             <div className="col-span-5 place-self-center sm:mt-10 lg:mt-0 mb-10">
                 <div className="rounded-full bg-gradient-to-r to-[#FF0066] from-[#14b8a6] sm:from-[#FF0066] sm:to-[#14b8a6] w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px]">
-                    <Image className='rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2' src="/images/foto-diri.png" alt="hero image" width={300} height={300}/>
+                    <Image className='rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2' src="/portofolio-next/images/foto-diri.png" alt="hero image" width={300} height={300}/>
                 </div>
             </div>
         </div>
