@@ -82,7 +82,7 @@ const Skills = () => {
                     <motion.li key={index} variants={item} className='item my-8 pl-20 sm:pl-10 first:mt-10 last:mb-0 sm:w-[80%] mx-auto flex flex-col sm:items-left justify-between'>
                         <div>
                             <div className='flex align-center with-icon--before w-full'>
-                                <h3 className='capitalize font-bold text-xl lg:text-2xl mr-1'>{list.title}</h3>
+                                <p className='text-black capitalize font-bold text-xl lg:text-2xl mr-1'>{list.title}</p>
                                 {list.icon}
                             </div>
                             <p className='text-[#ADB7BE]'>{list.subject}</p>

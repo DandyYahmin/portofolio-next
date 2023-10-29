@@ -7,7 +7,7 @@ const TOOLsvg = () => {
             xmlns="http://www.w3.org/2000/svg"
             width={25}
             height={25}
-            fill="currentColor"
+            fill="black"
             className="bi bi-wrench-adjustable-circle-fill pt-[0.4rem]"
         >
             <path d="M6.705 8.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27.596-.894Z" />
