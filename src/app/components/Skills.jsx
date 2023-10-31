@@ -18,7 +18,7 @@ const Skills = () => {
     )
     const listSkill = [
         {
-            title: "Operating System",
+            title: "OS",
             icon: <OSsvg/>,
             subject: "Windows, Linux Ubuntu"
         },
