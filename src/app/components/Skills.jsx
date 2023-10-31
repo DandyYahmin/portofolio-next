@@ -73,13 +73,13 @@ const Skills = () => {
         <div ref={ref} className="sm:w-[70%] mx-auto relative">
             <motion.div style={{scaleY: scrollYProgress}} className='absolute left-8 top-1 w-[4px] h-full bg-gradient-to-b from-[#FF0066] via-pink-500 to-[#14b8a6] origin-top'/>
             <motion.ul
-                className="container"
+                className="container lg:grid lg:grid-cols-2"
                 variants={container}
                 initial="hidden"
                 animate="visible"
             >
                 {listSkill.map((list, index) => (
-                    <motion.li key={index} variants={item} className='item my-8 pl-20 sm:pl-10 first:mt-10 last:mb-0 sm:w-[80%] mx-auto flex flex-col sm:items-left justify-between'>
+                    <motion.li key={index} variants={item} className='col-span-1 item my-8 pl-20 sm:pl-10 first:mt-10 last:mb-0 sm:w-[80%] mx-auto flex flex-col sm:items-left justify-between'>
                         <div>
                             <div className='flex align-center with-icon--before w-full'>
                                 <p className='text-black capitalize font-bold text-xl lg:text-2xl mr-1'>{list.title}</p>

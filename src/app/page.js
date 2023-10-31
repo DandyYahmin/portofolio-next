@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-white">
       {/* template */}
       <Navbar/>
-      <div className='container mt-24 lg:mt-40 mx-auto px-12 py-4'>
+      <div className='container mt-24 lg:mt-40 mx-auto px-12 py-4 lg:px-16'>
         <Hero/>
         <Skills/>
       </div>
